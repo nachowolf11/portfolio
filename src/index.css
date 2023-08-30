@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --bg-light-yellow: rgb(255, 253, 248);
+}
+
+.home-container{
+    @apply w-full;
+    background-color: var(--bg-light-yellow);
+}
+.section-container{
+    @apply min-h-screen flex flex-col;
+}
+
+.title{
+    @apply text-center;
+    font-family: Kanit;
+    font-size: 50px;
+    font-weight: 600;
+}
+.subtitle{
+    @apply text-center;
+    font-family: Kanit;
+    font-size: 25px;
+    font-weight: 300;
+    opacity: .8;
+}
+.title-container{
+    @apply flex flex-col items-center;
+}
+
+.header{
+    @apply flex flex-row items-center justify-between fixed w-full
+    px-10 2xl:px-16;
+    height: 100px;
+    background-color: var(--bg-light-yellow);
+    opacity: .9;
+}
+.nav{
+    @apply flex flex-row items-center justify-center
+}
+.nav li{
+    @apply ml-10 text-xl;
+    font-family: Kanit;
+    font-weight: 500;
+    opacity: .85;
+    cursor: pointer;
+}
+
+/*ScrollBar CSS*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #2e2e2e;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #181818;
+  }

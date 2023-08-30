@@ -1,0 +1,14 @@
+{
+    "mainSection":{
+        "title":"Frontend Web Developer",
+        "subtitle":"Everything is possible in the world of programming, that's why it's my passion."
+    },
+    "header":{
+        "language":"Language",
+        "spanish":"Spanish",
+        "english":"English",
+        "contact":"Contact",
+        "aboutme":"About me",
+        "proyects":"Proyects"
+    }
+}

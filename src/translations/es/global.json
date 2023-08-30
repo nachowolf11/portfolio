@@ -1,0 +1,14 @@
+{
+    "mainSection":{
+        "title":"Desarrollador Web Frontend",
+        "subtitle":"Todo es posible en el mundo de la programación, por eso es mi pasión."
+    },
+    "header":{
+        "language":"Idioma",
+        "spanish":"Español",
+        "english":"Ingles",
+        "contact":"Contacto",
+        "aboutme":"Sobre mi",
+        "proyects":"Proyectos"
+    }
+}
