@@ -5,7 +5,7 @@ export const MainSection = ({headerHeight}) => {
 const {t, i18n} = useTranslation("global");
 
   return (
-    <section className='section-container' style={{ paddingTop: `calc(${headerHeight} + 100px)` }}>
+    <section className='section-container pt-32'>
 
         <div className='title-container'>
           <h2 className='title'>{t("mainSection.title")}</h2>

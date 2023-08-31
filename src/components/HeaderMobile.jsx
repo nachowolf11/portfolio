@@ -1,6 +1,7 @@
 import { Menu, Transition } from '@headlessui/react'
 import { Fragment} from 'react'
 import { useLanguage } from '../helpers/useLanguage';
+import { Dropdown } from './Dropdown';
 
 export const HeaedrMobile = () => {
 const {t} = useLanguage();
@@ -9,6 +10,7 @@ const {t} = useLanguage();
       <Menu as="div" className="relative inline-block text-left w-full">
         <div className='flex justify-between w-full bg-red-400 px-4 py-2'>
             <div><span className='logo'>Ignacio Wolf</span></div>
+            <Dropdown/>
             <Menu.Button className="inline-flex items-center text-center bg-opacity-90  text-header-mobile focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -24,77 +26,33 @@ const {t} = useLanguage();
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Menu.Items className="absolute w-full text-center mt-2 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <Menu.Items className="absolute w-full text-center mt-1 origin-top-right divide-y divide-red-300 bg-red-200 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
             <div className="px-1 py-1 ">
               <Menu.Item>
-                {({ active }) => (
-                  <button
-                    className={`${
-                      active ? 'bg-violet-500 text-white' : 'text-gray-900'
-                    } group flex w-full justify-center items-center rounded-md px-2 py-2 text-sm`}
-                  >
-                    {active ? (
-                      <EditActiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    ) : (
-                      <EditInactiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    )}
+                  <button className={`group flex w-full items-center justify-center px-2 py-2 text-md font-bold`}>
                     {t("header.aboutme")}
                   </button>
-                )}
               </Menu.Item>
+            </div>
+            <div className="px-1 py-1 ">
               <Menu.Item>
-                {({ active }) => (
-                  <button
-                    className={`${
-                      active ? 'bg-violet-500 text-white' : 'text-gray-900'
-                    } group flex w-full items-center justify-center rounded-md px-2 py-2 text-sm`}
-                  >
-                    {active ? (
-                      <DuplicateActiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    ) : (
-                      <DuplicateInactiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    )}
+              <button className={`group flex w-full items-center justify-center px-2 py-2 text-md font-bold`}>
                     {t("header.proyects")}
                   </button>
-                )}
               </Menu.Item>
             </div>
             <div className="px-1 py-1">
               <Menu.Item>
-                {({ active }) => (
-                  <button
-                    className={`${
-                      active ? 'bg-violet-500 text-white' : 'text-gray-900'
-                    } group flex w-full items-center justify-center rounded-md px-2 py-2 text-sm`}
-                  >
-                    {active ? (
-                      <ArchiveActiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    ) : (
-                      <ArchiveInactiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    )}
+                  <button className={`group flex w-full items-center justify-center px-2 py-2 text-md font-bold`}>
                     {t("header.contact")}
                   </button>
-                )}
               </Menu.Item>
             </div>
+            {/* <div className="px-1 py-1 ">
+              <Menu.Item>
+                <Dropdown/>
+              </Menu.Item>
+            </div> */}
           </Menu.Items>
         </Transition>
       </Menu>
