@@ -6,10 +6,15 @@ const {t, i18n} = useTranslation("global");
 
   return (
     <section className='section-container' style={{ paddingTop: `calc(${headerHeight} + 100px)` }}>
+
         <div className='title-container'>
-            <h1 className='title'>{t("mainSection.title")}</h1>
-            <h4 className='subtitle'>{t("mainSection.subtitle")}</h4>
+          <h2 className='title'>{t("mainSection.title")}</h2>
+          <h4 className='subtitle'>{t("mainSection.subtitle")}</h4>
         </div>
+
+        <div className='profilePicture-container'>
+          <img src="./src/assets/img/cv1x1.PNG" alt="" />
+        </div>    
     </section>
   )
 }

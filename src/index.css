@@ -6,49 +6,6 @@
     --bg-light-yellow: rgb(255, 253, 248);
 }
 
-.home-container{
-    @apply w-full;
-    background-color: var(--bg-light-yellow);
-}
-.section-container{
-    @apply min-h-screen flex flex-col;
-}
-
-.title{
-    @apply text-center;
-    font-family: Kanit;
-    font-size: 50px;
-    font-weight: 600;
-}
-.subtitle{
-    @apply text-center;
-    font-family: Kanit;
-    font-size: 25px;
-    font-weight: 300;
-    opacity: .8;
-}
-.title-container{
-    @apply flex flex-col items-center;
-}
-
-.header{
-    @apply flex flex-row items-center justify-between fixed w-full
-    px-10 2xl:px-16;
-    height: 100px;
-    background-color: var(--bg-light-yellow);
-    opacity: .9;
-}
-.nav{
-    @apply flex flex-row items-center justify-center
-}
-.nav li{
-    @apply ml-10 text-xl;
-    font-family: Kanit;
-    font-weight: 500;
-    opacity: .85;
-    cursor: pointer;
-}
-
 /*ScrollBar CSS*/
 /* width */
 ::-webkit-scrollbar {
@@ -66,3 +23,61 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #181818;
   }
+
+.home-container{
+    @apply w-full;
+    background-color: var(--bg-light-yellow);
+}
+.section-container{
+    @apply min-h-screen flex flex-col items-center;
+}
+
+.logo{
+    @apply text-4xl rounded-full py-1 px-4;
+    font-family: Kanit;
+    font-weight: 800;
+}
+
+.title{
+    @apply text-center text-6xl mb-4;
+    font-family: Kanit;
+    font-weight: 600;
+    opacity: .9;
+}
+.subtitle{
+    @apply text-center text-2xl;
+    font-family: Kanit;
+    font-weight: 300;
+    opacity: .8;
+}
+.title-container{
+    @apply flex flex-col items-center;
+}
+
+.header{
+    @apply hidden md:flex flex-row items-center justify-between fixed w-full bg-red-400
+    px-10 2xl:px-16;
+    height: 100px;
+    /* background-color: var(--bg-light-yellow); */
+    opacity: .9;
+    z-index: 999;
+}
+.text-header-mobile{
+    @apply font-bold text-lg;
+}
+.nav{
+    @apply flex flex-row items-center justify-center
+}
+.nav li{
+    @apply ml-10 text-xl;
+    font-family: Kanit;
+    font-weight: 500;
+    opacity: .85;
+    cursor: pointer;
+}
+
+.profilePicture-container{
+    @apply w-64 rounded-full overflow-hidden mt-16 mb-20
+    border-red-400 border-4 shadow-2xl shadow-red-300
+    ;
+}
