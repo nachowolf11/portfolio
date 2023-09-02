@@ -2,6 +2,7 @@ import { Menu, Transition } from '@headlessui/react'
 import { Fragment} from 'react'
 import { useLanguage } from '../helpers/useLanguage';
 import { Dropdown } from './Dropdown';
+import { Link } from 'react-router-dom';
 
 export const HeaedrMobile = () => {
 const {t} = useLanguage();
@@ -29,9 +30,9 @@ const {t} = useLanguage();
           <Menu.Items className="absolute w-full text-center mt-1 origin-top-right divide-y divide-red-300 bg-red-200 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
             <div className="px-1 py-1 ">
               <Menu.Item>
-                  <button className={`group flex w-full items-center justify-center px-2 py-2 text-md font-bold`}>
+                  <Link to="/aboutme" className={`group flex w-full items-center justify-center px-2 py-2 text-md font-bold`}>
                     {t("header.aboutme")}
-                  </button>
+                  </Link>
               </Menu.Item>
             </div>
             <div className="px-1 py-1 ">

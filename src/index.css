@@ -74,6 +74,12 @@
     font-weight: 500;
     opacity: .85;
     cursor: pointer;
+    transition: .1s;
+}
+
+.activeSection{
+    color: white;
+    transition: .1s;
 }
 
 .profilePicture-container{
