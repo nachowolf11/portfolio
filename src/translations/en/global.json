@@ -10,5 +10,12 @@
         "contact":"Contact",
         "aboutme":"About me",
         "proyects":"Proyects"
+    },
+    "aboutme":{
+        "greeting":"Hi, I’m Ignacio. Nice to meet you.",
+        "description":"Soy un Desarrollador Web Jr. Mi principal enfoque se centra en las tecnologías modernas que me permiten construir aplicaciones web robustas y atractivas.",
+        "description2":"Tengo experiencia utilizando diferentes tecnologías, como Angular, React, y Node.js. Además, estoy familiarizado con bases de datos relacionales como SQL y bases de datos NoSQL como MongoDB.",
+        "description3":"Me siento cómodo trabajando con frameworks de diseño como Material UI y utilizando Tailwind CSS para crear interfaces modernas y responsivas.",
+        "description4":"En mi tiempo libre, me gusta trabajar sobre proyectos personales. Estoy ansioso por seguir desarrollando mis habilidades y contribuyendo al éxito de proyectos emocionantes en el futuro."
     }
 }

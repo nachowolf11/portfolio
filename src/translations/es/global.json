@@ -10,5 +10,9 @@
         "contact":"Contacto",
         "aboutme":"Sobre mi",
         "proyects":"Proyectos"
+    },
+    "aboutme":{
+        "greeting":"Hola, soy Ignacio. Encantado de conocerte.",
+        "description":"Soy un Desarrollador Web Frontend Jr que trabaja con tecnologías modernas que permiten construir aplicaciones web robustas y atractivas. Tengo experiencia utilizando React, Angular, y Node.js. Además, estoy familiarizado con bases de datos relacionales como SQL y no relacionales como MongoDB. Me siento cómodo trabajando con frameworks de diseño como Material UI y utilizando Tailwind CSS para crear interfaces modernas y responsivas. En mi tiempo libre, me gusta trabajar sobre proyectos personales. Estoy ansioso por seguir desarrollando mis habilidades y construir al éxito de proyectos en el futuro."
     }
 }

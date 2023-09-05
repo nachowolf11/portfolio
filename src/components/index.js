@@ -1,5 +1,5 @@
 export * from "./MainSection"
-export * from "./BioSection"
+export * from "./AboutSection"
 export * from "./ProyectSection"
 export * from "./ContactSection"
 export * from "./Header"

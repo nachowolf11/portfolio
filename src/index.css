@@ -29,7 +29,7 @@
     background-color: var(--bg-light-yellow);
 }
 .section-container{
-    @apply min-h-screen flex flex-col items-center;
+    @apply min-h-screen flex flex-col items-center pt-32 px-7 pb-20;
 }
 
 .logo{
@@ -86,4 +86,22 @@
     @apply w-64 rounded-full overflow-hidden mt-16 mb-20
     border-red-400 border-4 shadow-2xl shadow-red-300
     ;
+}
+
+.about-text-container{
+    @apply flex flex-col items-center;
+}
+
+.greeting-text{
+    @apply text-4xl text-white text-center my-8 ;
+    font-family: Kanit;
+    font-weight: 600;
+}
+
+.description-container{
+    @apply w-full md:w-4/5 xl:w-3/6
+}
+
+.bio-text{
+    @apply text-xl text-white;
 }

@@ -1,6 +1,6 @@
 import { Menu, Transition } from '@headlessui/react'
 import { Fragment} from 'react'
-import { useLanguage } from '../helpers/useLanguage';
+import { useLanguage } from '../hooks';
 import { Dropdown } from './Dropdown';
 import { Link } from 'react-router-dom';
 

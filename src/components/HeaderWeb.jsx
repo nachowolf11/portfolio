@@ -1,6 +1,6 @@
 import React from 'react'
 import { Dropdown } from './Dropdown'
-import { useLanguage } from '../helpers/useLanguage'
+import { useLanguage } from '../hooks'
 import * as Scroll from 'react-scroll';
 
 

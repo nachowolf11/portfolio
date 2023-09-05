@@ -5,7 +5,7 @@ export const MainSection = ({headerHeight}) => {
 const {t, i18n} = useTranslation("global");
 
   return (
-    <section id='main' className='section-container pt-32'>
+    <section id='main' className='section-container'>
 
         <div className='title-container'>
           <h2 className='title'>{t("mainSection.title")}</h2>

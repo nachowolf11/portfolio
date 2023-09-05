@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import { Menu, Transition } from '@headlessui/react'
-import { useLanguage } from '../helpers/useLanguage'
+import { useLanguage } from '../hooks'
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')

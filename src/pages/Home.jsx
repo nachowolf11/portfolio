@@ -1,9 +1,6 @@
-import React, { useEffect } from 'react'
-import { BioSection, ContactSection, Header, MainSection, ProyectSection } from '../components'
-import { useLanguage } from '../helpers/useLanguage'
-
-//Ajustar acorde a la clase header en index.css
-const headerHeight = '100px'
+import { useEffect } from 'react'
+import { AboutSection, ContactSection, Header, MainSection, ProyectSection } from '../components'
+import { useLanguage } from '../hooks'
 
 export const Home = () => {
 
@@ -16,8 +13,8 @@ export const Home = () => {
   return (
     <main className='home-container'>
         <Header/>
-        <MainSection headerHeight={headerHeight}/>
-        <BioSection headerHeight={headerHeight}/>
+        <MainSection/>
+        <AboutSection/>
         <ProyectSection/>
         <ContactSection/>
     </main>
