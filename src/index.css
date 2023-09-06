@@ -33,7 +33,7 @@
 }
 
 .logo{
-    @apply text-4xl rounded-full py-1 px-4;
+    @apply text-2xl rounded-full py-1 px-4 md:text-4xl;
     font-family: Kanit;
     font-weight: 800;
 }
@@ -63,7 +63,9 @@
     z-index: 999;
 }
 .text-header-mobile{
-    @apply font-bold text-lg;
+    @apply text-lg py-3 w-full text-center border-b-2 border-red-300 border-opacity-40;
+    font-family: Kanit;
+    font-weight: 500;
 }
 .nav{
     @apply flex flex-row items-center justify-center
@@ -104,4 +106,17 @@
 
 .bio-text{
     @apply text-xl text-white;
+}
+
+.close-list{
+    transition: .3s;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.active-list{
+    opacity: 1;
+    height: auto;
+    transition: .2s;
 }

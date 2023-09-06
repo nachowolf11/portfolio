@@ -1,10 +1,10 @@
-import { HeaderWeb, HeaedrMobile } from "./"
+import { HeaderMobile, HeaderWeb } from "./"
 
 export const Header = () => {
   return (
     <>
       <HeaderWeb/>
-      <HeaedrMobile/>
+      <HeaderMobile/>
     </>
   )
 }
