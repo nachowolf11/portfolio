@@ -17,7 +17,7 @@ export const ProyectSection = () => {
           background={'/src/assets/img/fondotwitter.png'}
           title={'Twitter Clone'}
           description={'proyects.twitter'}
-          url={'https://twitter-clone-1br4.onrender.com/'}
+          url={'https://twitterclone-av6b-dev.fl0.io'}
           technologies={['react','node','mongodb']}
         />
       </div>
