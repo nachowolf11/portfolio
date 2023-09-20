@@ -1,6 +1,7 @@
 export * from "./MainSection"
 export * from "./AboutSection"
 export * from "./ProyectSection"
+export * from "./ProyectCard"
 export * from "./ContactSection"
 export * from "./Header"
 export * from "./HeaderWeb"

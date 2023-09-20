@@ -1,10 +1,12 @@
 import { useDropdown, useLanguage } from '../hooks';
 import * as Scroll from 'react-scroll';
 import { Dropdown } from './Dropdown';
+import { useRef } from 'react';
 
 export const HeaderMobile = () => {
 const {t} = useLanguage();
-const {toggleOpen} = useDropdown('dropdown-list');
+const ref = useRef();
+const {toggleOpen} = useDropdown(ref,'dropdown-list');
 let Link = Scroll.Link;
 
   return (
@@ -13,14 +15,14 @@ let Link = Scroll.Link;
             <Link to="main" spy={true} smooth={true} offset={0} duration={600}>
                 <span className='logo'>Ignacio Wolf</span>
             </Link>
-            <div className='flex flex-row items-center mr-4'>
+            <div ref={ref} className='flex flex-row items-center mr-4'>
                 <div><Dropdown/></div>
                 <svg xmlns="http://www.w3.org/2000/svg" onClick={toggleOpen} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-10">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
                 </svg>
             </div>
 
-            <div id='dropdown-list' className='absolute top-12 left-0 w-full bg-red-100'>
+            <div id='dropdown-list' className='absolute close-list top-12 left-0 w-full bg-red-100'>
                 <ul className='flex flex-col items-center border-t-2 border-red-300 border-opacity-40'>
                     <li className='text-header-mobile'>
                         <Link activeClass="activeSection" to="aboutme" spy={true} smooth={true} offset={0} duration={600}>

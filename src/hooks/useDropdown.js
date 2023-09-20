@@ -1,9 +1,10 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
-export const useDropdown = (dropdownId) => {
+export const useDropdown = (ref, dropdownId) => {
     const [open, setOpen] = useState(false)
 
     const toggleOpen = () => {
+      // console.log('hola');
         if(open){
             document.getElementById(dropdownId).classList.add('close-list')
             document.getElementById(dropdownId).classList.remove('active-list')
@@ -14,6 +15,18 @@ export const useDropdown = (dropdownId) => {
             setOpen(true);
         }
     }
+
+    useEffect(() => {
+        const checkIfClickedOutside = (e) => {
+          if( open && ref.current && !ref.current.contains(e.target) ){
+            toggleOpen();
+          }
+        };
+        document.addEventListener("click", checkIfClickedOutside); 
+        return () => {
+          document.removeEventListener("click", checkIfClickedOutside);
+        }
+      }, [toggleOpen])
 
     return{
         open,

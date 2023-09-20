@@ -13,6 +13,13 @@
     },
     "aboutme":{
         "greeting":"Hola, soy Ignacio. Encantado de conocerte.",
-        "description":"Soy un Desarrollador Web Frontend Jr que trabaja con tecnologías modernas que permiten construir aplicaciones web robustas y atractivas. Tengo experiencia utilizando React, Angular, y Node.js. Además, estoy familiarizado con bases de datos relacionales como SQL y no relacionales como MongoDB. Me siento cómodo trabajando con frameworks de diseño como Material UI y utilizando Tailwind CSS para crear interfaces modernas y responsivas. En mi tiempo libre, me gusta trabajar sobre proyectos personales. Estoy ansioso por seguir desarrollando mis habilidades y construir al éxito de proyectos en el futuro."
+        "description":"Soy un Desarrollador Web Frontend Jr que trabaja con tecnologías modernas que permiten construir aplicaciones web robustas y atractivas. En mi tiempo libre, me gusta trabajar sobre proyectos personales y estoy ansioso por seguir desarrollando mis habilidades para contribuir al éxito de proyectos en el futuro.",
+        "tech":"Tengo experiencia utilizando React, Angular, y Node.js. Estoy familiarizado con bases de datos relacionales como SQL y no relacionales como MongoDB. Además, me siento cómodo trabajando con frameworks de diseño como Material UI y utilizando Tailwind CSS para crear interfaces modernas y responsivas."
+    },
+    "proyects":{
+        "title":"Mis proyectos",
+        "description":"Algunos de los proyectos personales en los que estuve trabajando este último tiempo.",
+        "viewWeb":"Visitar sitio web",
+        "twitter":"Clon de Twitter con sus funcionalidades principales. Las tecnologías utilizadas en este proyecto fueron React, Node Js y Mongo DB."
     }
 }

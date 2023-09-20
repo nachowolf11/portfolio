@@ -13,9 +13,13 @@
     },
     "aboutme":{
         "greeting":"Hi, I’m Ignacio. Nice to meet you.",
-        "description":"Soy un Desarrollador Web Jr. Mi principal enfoque se centra en las tecnologías modernas que me permiten construir aplicaciones web robustas y atractivas.",
-        "description2":"Tengo experiencia utilizando diferentes tecnologías, como Angular, React, y Node.js. Además, estoy familiarizado con bases de datos relacionales como SQL y bases de datos NoSQL como MongoDB.",
-        "description3":"Me siento cómodo trabajando con frameworks de diseño como Material UI y utilizando Tailwind CSS para crear interfaces modernas y responsivas.",
-        "description4":"En mi tiempo libre, me gusta trabajar sobre proyectos personales. Estoy ansioso por seguir desarrollando mis habilidades y contribuyendo al éxito de proyectos emocionantes en el futuro."
+        "description":"I´m a Jr. Frontend Web Developer who works with modern technologies that allow building robust and attractive web applications. In my spare time, I like to work on personal projects and I´m eager to continue developing my skills to contribute to the success of projects in the future.",
+        "tech":"I have experience using React, Angular, and Node.js. I'm familiar with relational databases like SQL and non-relational databases like MongoDB. Also, I'm comfortable working with design frameworks like Material UI and using Tailwind CSS to create modern, responsive interfaces."
+    },
+    "proyects":{
+        "title":"My proyects",
+        "description":"Some of the personal projects I have been working on recently.",
+        "visitWeb":"Visit Website",
+        "twitter":"Twitter clone with its main functionalities. The technologies used in this proyect were React, Node Js and Mongo DB."
     }
 }
