@@ -14,7 +14,7 @@ export const ProyectSection = () => {
 
       <div className='flex flex-wrap mt-20 w-3/4'>
         <ProyectCard 
-          background={'./src/assets/img/fondotwitter.png'}
+          background={'./img/fondotwitter.png'}
           title={'Twitter Clone'}
           description={'proyects.twitter'}
           url={'https://twitterclone-av6b-dev.fl0.io'}

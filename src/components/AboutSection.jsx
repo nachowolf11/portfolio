@@ -16,39 +16,39 @@ export const AboutSection = () => {
         <div className='box-technologies'>
           <div className='icon-container'>
             <div className='technology'>
-              <img className='icon' src="./src/assets/icons/html.png" alt="HTML5"/>
+              <img className='icon' src="./icons/html.png" alt="HTML5"/>
               <span>HTML 5</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./src/assets/icons/css.png" alt="CSS"/>
+              <img className='icon' src="./icons/css.png" alt="CSS"/>
               <span>CSS</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./src/assets/icons/js.png" alt="JavaScript"/>
+              <img className='icon' src="./icons/js.png" alt="JavaScript"/>
               <span>JavaScript</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./src/assets/icons/typescript.svg" alt="JavaScript"/>
+              <img className='icon' src="./icons/typescript.svg" alt="JavaScript"/>
               <span>TypeScript</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./src/assets/icons/react.png" alt="React"/>
+              <img className='icon' src="./icons/react.png" alt="React"/>
               <span>React</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./src/assets/icons/angular.svg" alt="Angular"/>
+              <img className='icon' src="./icons/angular.svg" alt="Angular"/>
               <span>Angular</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./src/assets/icons/node.svg" alt="NodeJS"/>
+              <img className='icon' src="./icons/node.svg" alt="NodeJS"/>
               <span>Node JS</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./src/assets/icons/mysql.svg" alt="MySql"/>
+              <img className='icon' src="./icons/mysql.svg" alt="MySql"/>
               <span>My SQL</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./src/assets/icons/mongo.svg" alt="MongoDB"/>
+              <img className='icon' src="./icons/mongo.svg" alt="MongoDB"/>
               <span>MongoDB</span>
             </div>
           </div>
