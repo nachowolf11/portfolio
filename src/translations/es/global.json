@@ -19,7 +19,7 @@
     "proyects":{
         "title":"Mis proyectos",
         "description":"Algunos de los proyectos personales en los que estuve trabajando este último tiempo.",
-        "viewWeb":"Visitar sitio web",
+        "visitWeb":"Visitar sitio web",
         "twitter":"Clon de Twitter con sus funcionalidades principales. Las tecnologías utilizadas en este proyecto fueron React, Node Js y Mongo DB."
     }
 }
