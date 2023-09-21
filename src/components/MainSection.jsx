@@ -13,7 +13,7 @@ const {t, i18n} = useTranslation("global");
         </div>
 
         <div className='profilePicture-container'>
-          <img src="./img/cv1x1.PNG" alt="" />
+          <img src="./img/cv.PNG" alt="" />
         </div>    
     </section>
   )

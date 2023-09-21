@@ -21,5 +21,9 @@
         "description":"Some of the personal projects I have been working on recently.",
         "visitWeb":"Visit Website",
         "twitter":"Twitter clone with its main functionalities. The technologies used in this proyect were React, Node Js and Mongo DB."
+    },
+    "contact":{
+        "title":"Contact",
+        "email":"Email"
     }
 }
