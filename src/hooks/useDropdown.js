@@ -16,6 +16,12 @@ export const useDropdown = (ref, dropdownId) => {
         }
     }
 
+    const closeDropdown = () => {
+      document.getElementById(dropdownId).classList.add('close-list')
+      document.getElementById(dropdownId).classList.remove('active-list')
+      setOpen(false);
+    }
+
     useEffect(() => {
         const checkIfClickedOutside = (e) => {
           if( open && ref.current && !ref.current.contains(e.target) ){
@@ -33,5 +39,6 @@ export const useDropdown = (ref, dropdownId) => {
 
         setOpen,
         toggleOpen,
+        closeDropdown
     }
 }

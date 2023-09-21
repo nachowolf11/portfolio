@@ -6,13 +6,13 @@ import { useRef } from 'react';
 export const HeaderMobile = () => {
 const {t} = useLanguage();
 const ref = useRef();
-const {toggleOpen} = useDropdown(ref,'dropdown-list');
+const {toggleOpen, closeDropdown} = useDropdown(ref,'dropdown-list');
 let Link = Scroll.Link;
 
   return (
     <div className='md:hidden fixed w-full bg-red-400 bg-opacity-90 z-50'>
         <div className='flex flex-row justify-between items-center relative w-full my-2'>
-            <Link to="main" spy={true} smooth={true} offset={0} duration={600}>
+            <Link to="main" onClick={closeDropdown} spy={true} smooth={true} offset={0} duration={600}>
                 <span className='logo'>Ignacio Wolf</span>
             </Link>
             <div ref={ref} className='flex flex-row items-center mr-4'>
@@ -25,17 +25,17 @@ let Link = Scroll.Link;
             <div id='dropdown-list' className='absolute close-list top-12 left-0 w-full bg-red-100'>
                 <ul className='flex flex-col items-center border-t-2 border-red-300 border-opacity-40'>
                     <li className='text-header-mobile'>
-                        <Link activeClass="activeSection" to="aboutme" spy={true} smooth={true} offset={0} duration={600}>
+                        <Link activeClass="activeSection" onClick={closeDropdown} to="aboutme" spy={true} smooth={true} offset={0} duration={600}>
                             {t("header.aboutme")}
                         </Link>
                     </li>
                     <li className='text-header-mobile'>
-                        <Link activeClass="activeSection" to="proyects" spy={true} smooth={true} offset={0} duration={600}>
+                        <Link activeClass="activeSection" onClick={closeDropdown} to="proyects" spy={true} smooth={true} offset={0} duration={600}>
                             {t("header.proyects")}
                         </Link>
                     </li>
                     <li className='text-header-mobile'>
-                        <Link activeClass="activeSection" to="contact" spy={true} smooth={true} offset={0} duration={600}>
+                        <Link activeClass="activeSection" onClick={closeDropdown} to="contact" spy={true} smooth={true} offset={0} duration={600}>
                             {t("header.contact")}
                         </Link>
                     </li>
