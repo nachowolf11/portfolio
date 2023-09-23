@@ -42,13 +42,13 @@ export const ContactSection = () => {
         <h2 className='font-kanit font-semibold text-5xl md:text-6xl text-white'>{t("contact.title")}</h2>
       </div>
 
-      <div className='w-full flex justify-center px-8 sm:px-0 mt-10 md:mt-20'>
+      <div className='w-full flex justify-center mb-16 px-8 sm:px-0 mt-10 md:mt-20'>
         <form className='flex flex-col rounded-md w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 items-center py-8 md:px-16 bg-red-500 drop-shadow-lg' onSubmit={handleSubmit}>
           <div>
-            <h3 className='text-white text-3xl font-kanit mb-5'>{t('contact.email')}</h3>
+            <h3 className='text-white text-3xl font-kanit font-bold opacity-95 mb-5'>{t('contact.email')}</h3>
           </div>
           <input
-            className='w-11/12 my-3 text-xl p-2 font-kanit font-light rounded-md'
+            className='w-11/12 my-3 text-xl p-2 font-kanit font-light rounded-md outline-red-500'
             type="text"
             name="name"
             placeholder="Nombre"
@@ -56,7 +56,7 @@ export const ContactSection = () => {
             onChange={handleChange}
           />
           <input
-            className='w-11/12 my-3 text-xl p-2 font-kanit font-light rounded-md'
+            className='w-11/12 my-3 text-xl p-2 font-kanit font-light rounded-md outline-red-500'
             type="email"
             name="email"
             placeholder="Correo Electrónico"
@@ -64,7 +64,7 @@ export const ContactSection = () => {
             onChange={handleChange}
           />
           <input
-            className='w-11/12 my-3 text-xl p-2 font-kanit font-light rounded-md'
+            className='w-11/12 my-3 text-xl p-2 font-kanit font-light rounded-md outline-red-500'
             type="text"
             name="subject"
             placeholder="Asunto"
@@ -72,16 +72,16 @@ export const ContactSection = () => {
             onChange={handleChange}
           />
           <textarea
-            className='w-11/12 my-3 text-xl p-2 font-kanit font-light rounded-md resize-none h-40'
+            className='w-11/12 my-3 text-xl p-2 font-kanit font-light rounded-md resize-none h-40 outline-red-500'
             name="message"
             placeholder="Mensaje"
             value={formData.message}
             onChange={handleChange}
           />
           <button type="submit"
-            className=''
+            className='font-kanit text-xl shadow-lg bg-white rounded-3xl px-6 py-1 mt-2 hover:shadow-rose-300 hover:scale-110 transition-all select-none'
           >
-            Enviar Correo
+            {t('contact.send')}
             </button>
         </form>
       </div>

@@ -8,7 +8,7 @@ export const HeaderWeb = () => {
 const {t} = useLanguage();
 let Link = Scroll.Link;
   return (
-    <header className='header'>
+    <header className='header select-none'>
     <div>
       <Link to="main" spy={true} smooth={true} offset={0} duration={600}>
         <span className='logo'>Ignacio Wolf</span>

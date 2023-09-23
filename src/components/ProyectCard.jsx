@@ -9,7 +9,7 @@ export const ProyectCard = ({background, title, description, url, technologies})
     mongodb: '/src/assets/icons/mongo.svg',
   }
   return (
-    <div className="w-full md:w-1/2 xl:w-1/3 px-5 2xl:px-10 my-5">
+    <div className="w-full md:w-1/2 xl:w-1/3 px-5 2xl:px-10 my-5 hover:scale-105 transition-all">
         <div 
             className="flex flex-col justify-center w-full h-72 rounded-xl relative shadow-xl"
             style={{ 

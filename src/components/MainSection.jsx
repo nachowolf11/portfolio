@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 export const MainSection = ({headerHeight}) => {
-const {t, i18n} = useTranslation("global");
+const {t} = useTranslation("global");
 
   return (
     <section id='main' className='section-container min-h-screen pt-28 md:pt-40'>

@@ -33,7 +33,7 @@
 }
 
 .logo{
-    @apply text-2xl rounded-full py-1 px-4 md:text-4xl hover:text-white;
+    @apply inline-block text-2xl rounded-full py-1 px-4 md:text-4xl hover:text-white hover:scale-110 transition-all;
     font-family: Kanit;
     font-weight: 800;
     cursor: pointer;
@@ -73,7 +73,7 @@
     @apply flex flex-row items-center justify-center
 }
 .nav li{
-    @apply ml-10 text-xl text-black hover:text-white;
+    @apply ml-10 text-xl text-black hover:text-white hover:scale-125 transition-all;
     font-family: Kanit;
     font-weight: 500;
     cursor: pointer;
@@ -86,7 +86,7 @@
 }
 
 .profilePicture-container{
-    @apply w-64 rounded-full overflow-hidden mt-16 mb-20
+    @apply w-72 rounded-full overflow-hidden mt-16 mb-20
     border-red-400 border-4 shadow-2xl shadow-red-300
     ;
 }

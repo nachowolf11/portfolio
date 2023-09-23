@@ -24,6 +24,7 @@
     },
     "contact":{
         "title":"Contacto",
-        "email":"Correo electrónico"
+        "email":"Correo electrónico",
+        "send":"Enviar"
     }
 }
