@@ -4,6 +4,7 @@ import App from './App'
 import './index.css'
 import i18next from 'i18next'
 import { I18nextProvider } from 'react-i18next'
+import 'animate.css';
 
 import global_es from "./translations/es/global.json"
 import global_en from "./translations/en/global.json"

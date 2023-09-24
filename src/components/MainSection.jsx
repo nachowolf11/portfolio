@@ -12,7 +12,7 @@ const {t} = useTranslation("global");
           <h4 className='subtitle'>{t("mainSection.subtitle")}</h4>
         </div>
 
-        <div className='profilePicture-container'>
+        <div className='profilePicture-container animate__animated animate__fadeIn'>
           <img src="./img/cv.PNG" alt="" />
         </div>    
     </section>

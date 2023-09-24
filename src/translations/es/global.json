@@ -25,6 +25,8 @@
     "contact":{
         "title":"Contacto",
         "email":"Correo electrónico",
-        "send":"Enviar"
+        "send":"Enviar",
+        "messageSent":"Tu mensaje ha sido enviado",
+        "thanks":"Gracias por contactarte conmigo, estaré respondiendote a traves de un correo electrónico en la próximas horas."
     }
 }

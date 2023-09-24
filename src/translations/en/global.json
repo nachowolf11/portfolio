@@ -25,6 +25,8 @@
     "contact":{
         "title":"Contact",
         "email":"Email",
-        "send":"Send"
+        "send":"Send",
+        "messageSent":"Your message has been sent",
+        "thanks":"Thank you for contacting me, I will be responding to you via email in the next few hours."
     }
 }
