@@ -13,7 +13,7 @@ const {t} = useTranslation("global");
         </div>
 
         <div className='profilePicture-container animate__animated animate__fadeIn'>
-          <img src="./img/cv.PNG" alt="" />
+          <img className='animate__animated animate__fadeIn' src="./img/cv.PNG" alt="" />
         </div>    
     </section>
   )
