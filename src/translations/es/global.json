@@ -13,14 +13,17 @@
     },
     "aboutme":{
         "greeting":"Hola, soy Ignacio. Encantado de conocerte.",
-        "description":"Soy un Desarrollador Web Frontend Jr que trabaja con tecnologías modernas que permiten construir aplicaciones web robustas y atractivas. En mi tiempo libre, me gusta trabajar sobre proyectos personales y estoy ansioso por seguir desarrollando mis habilidades para contribuir al éxito de proyectos en el futuro.",
+        "description":"Soy un Desarrollador Web Frontend que trabaja con tecnologías modernas que permiten construir aplicaciones web robustas y atractivas. En mi tiempo libre, me gusta trabajar sobre proyectos personales y estoy ansioso por seguir desarrollando mis habilidades para contribuir al éxito de proyectos en el futuro.",
         "tech":"Tengo experiencia utilizando React, Angular, y Node.js. Estoy familiarizado con bases de datos relacionales como SQL y no relacionales como MongoDB. Además, me siento cómodo trabajando con frameworks de diseño como Material UI y utilizando Tailwind CSS para crear interfaces modernas y responsivas."
     },
     "proyects":{
         "title":"Mis proyectos",
         "description":"Algunos de los proyectos personales en los que estuve trabajando este último tiempo.",
+        "actual":"Actualmente me encuentro trabajando para:",
         "visitWeb":"Visitar sitio web",
-        "twitter":"Clon de Twitter con sus funcionalidades principales. Las tecnologías utilizadas en este proyecto fueron React, Node Js y Mongo DB."
+        "twitter":"Clon de Twitter con sus funcionalidades principales. Las tecnologías utilizadas en este proyecto fueron React, Node Js y Mongo DB.",
+        "thalamus":"Thalamus es una plataforma de marketing SaaS global para relacionar a su compañía con consumidores, puntos de venta, fuerza de venta y distribuidores.",
+        "rol":"Rol: Desarrollador Frontend"
     },
     "contact":{
         "title":"Contacto",
