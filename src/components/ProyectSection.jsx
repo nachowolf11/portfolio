@@ -12,7 +12,7 @@ export const ProyectSection = () => {
         <p className='font-kanit font-extralight opacity-90 mt-5 text-xl text-center px-2 md:text-2xl'>{t("proyects.description")}</p>
       </div>
 
-      <div className='flex flex-wrap w-full px-8 sm:px-20 md:px-10 2xl:px-20 mt-8 md:mt-16'>
+      <div className='flex flex-wrap w-full px-8 sm:px-20 md:px-10 2xl:px-20 mt-8 md:mt-20 md:mb-20'>
         <ProyectCard 
           background={'./img/fondotwitter.png'}
           title={'Twitter Clone'}
@@ -21,17 +21,10 @@ export const ProyectSection = () => {
           technologies={['react','node','mongodb']}
         />
         <ProyectCard 
-          background={'./img/fondotwitter.png'}
-          title={'Twitter Clone'}
-          description={'proyects.twitter'}
-          url={'https://twitterclone-av6b-dev.fl0.io'}
-          technologies={['react','node','mongodb']}
-        />
-        <ProyectCard 
-          background={'./img/fondotwitter.png'}
-          title={'Twitter Clone'}
-          description={'proyects.twitter'}
-          url={'https://twitterclone-av6b-dev.fl0.io'}
+          background={'./img/fondoPokeapp.png'}
+          title={'Poke App'}
+          description={'proyects.pokemon'}
+          url={''}
           technologies={['react','node','mongodb']}
         />
       </div>

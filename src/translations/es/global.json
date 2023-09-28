@@ -21,7 +21,9 @@
         "description":"Algunos de los proyectos personales en los que estuve trabajando este último tiempo.",
         "actual":"Actualmente me encuentro trabajando para:",
         "visitWeb":"Visitar sitio web",
+        "inProgress":"En progreso",
         "twitter":"Clon de Twitter con sus funcionalidades principales. Las tecnologías utilizadas en este proyecto fueron React, Node Js y Mongo DB.",
+        "pokemon":"Aplicación de Pokemon realizada con Angular.",
         "thalamus":"Thalamus es una plataforma de marketing SaaS global para relacionar a su compañía con consumidores, puntos de venta, fuerza de venta y distribuidores.",
         "rol":"Rol: Desarrollador Frontend"
     },
