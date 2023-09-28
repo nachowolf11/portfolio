@@ -36,8 +36,8 @@ export const ProyectCard = ({background, title, description, url, technologies})
 
                 <div className="
                     flex flex-col items-center justify-center w-full h-full rounded-xl absolute bg-gradient-to-r from-rose-900 to-rose-950 opacity-0
-                    hover:opacity-100 transition-opacity
-                ">
+                    hover:opacity-100 transition-opacity"
+                >
                     <h3 className="text-white font-kanit text-justify px-10 text-lg md:text-xl">{t(description)}</h3>
                 </div>
 
