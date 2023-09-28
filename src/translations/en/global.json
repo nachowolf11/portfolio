@@ -19,7 +19,7 @@
     "proyects":{
         "title":"My proyects",
         "description":"Some of the personal projects I have been working on recently.",
-        "actual":"Actualmente me encuentro trabajando para:",
+        "actual":"I am currently working for:",
         "visitWeb":"Visit Website",
         "inProgress":"In Progress",
         "twitter":"Twitter clone with its main functionalities. The technologies used in this proyect were React, Node Js and Mongo DB.",
