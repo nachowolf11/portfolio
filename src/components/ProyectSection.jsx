@@ -38,7 +38,7 @@ export const ProyectSection = () => {
             <img className='sm:w-44 sm:mr-5 lg:w-56' src="./icons/thalamus.png" alt="thalamus" />
             <div className='flex flex-col lg:px-10'>
               <p className='font-kanit font-extralight text-xl text-justify mt-6 sm:mt-0'>{t('proyects.thalamus')}</p>
-              <p className='font-kanit font-extralight text-xl mt-6'>{t('proyects.rol')}</p>
+              <p className='font-kanit font-extralight text-xl mt-6'>{t('proyects.rolThalamus')}</p>
             </div>
           </div>
         </div>

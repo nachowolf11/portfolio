@@ -25,7 +25,7 @@
         "twitter":"Clon de Twitter con sus funcionalidades principales. Las tecnologías utilizadas en este proyecto fueron React, Node Js y Mongo DB.",
         "pokemon":"Aplicación de Pokemon realizada con Angular.",
         "thalamus":"Thalamus es una plataforma de marketing SaaS global para relacionar a su compañía con consumidores, puntos de venta, fuerza de venta y distribuidores.",
-        "rol":"Rol: Desarrollador Frontend"
+        "rolThalamus":"Realizo manteniemiento y mejoras en PWAs que usan como tecnologías Angular, PHP, Laravel, Lumen y MySQL."
     },
     "contact":{
         "title":"Contacto",
