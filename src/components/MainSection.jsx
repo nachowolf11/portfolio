@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next'
 
-export const MainSection = ({headerHeight}) => {
+export const MainSection = () => {
 const {t} = useTranslation("global");
 
   return (
-    <section id='main' className='section-container min-h-screen pt-28 md:pt-40'>
+    <section className='section-container min-h-screen pt-28 md:pt-40'>
 
         <div className='title-container'>
           <h2 className='title'>{t("mainSection.title")}</h2>
@@ -13,7 +13,7 @@ const {t} = useTranslation("global");
 
         <div className='profilePicture-container'>
           <img 
-            src="./img/cv.PNG"
+            src="./img/cv2.png"
             alt="Ignacio Wolf"
           />
         </div>    

@@ -7,7 +7,7 @@ export const ContactSection = () => {
 
   const { formData, handleChange, handleSubmit, isLoading, recaptchaRef, isSubmitted } = useContactForm();
   return (
-    <section id='contact' className='section-container min-h-screen bg-red-400 pt-16 md:pt-32'>
+    <section className='section-container min-h-screen bg-red-400 pt-16 md:pt-32'>
 
       <div className='flex flex-col items-center'>
         <h2 className='font-kanit font-semibold text-5xl md:text-6xl text-white'>{t("contact.title")}</h2>

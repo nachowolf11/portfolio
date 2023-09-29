@@ -3,7 +3,7 @@ import { useLanguage } from '../hooks'
 export const AboutSection = () => {
   const {t} = useLanguage();
   return (
-    <section id='aboutme' className='section-container min-h-screen'>
+    <section className='section-container min-h-screen'>
 
       <div className='about-text-container'>
         <h2 className='greeting-text'>{t("aboutme.greeting")}</h2>

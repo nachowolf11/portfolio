@@ -5,9 +5,9 @@ import { ProyectCard } from './ProyectCard';
 export const ProyectSection = () => {
   const {t} = useLanguage('global');
   return (
-    <section id='proyects' className='section-container min-h-screen pt-16 md:pt-32'>
+    <section className='section-container h-min-screen'>
 
-      <div className='flex flex-col items-center'>
+      <div className='flex flex-col items-center pt-16 md:pt-32'>
         <h2 className='font-kanit font-semibold text-5xl md:text-6xl opacity-80'>{t("proyects.title")}</h2>
         <p className='font-kanit font-extralight opacity-90 mt-5 text-xl text-center px-2 md:text-2xl'>{t("proyects.description")}</p>
       </div>
