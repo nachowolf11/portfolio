@@ -32,6 +32,8 @@
         "email":"Correo electrónico",
         "send":"Enviar",
         "messageSent":"Tu mensaje ha sido enviado",
-        "thanks":"Gracias por contactarte conmigo, estaré respondiendote a traves de un correo electrónico en la próximas horas."
+        "thanks":"Gracias por contactarte conmigo, estaré respondiendote a traves de un correo electrónico en la próximas horas.",
+        "getintouch":"Contactame",
+        "socialNet":"Puedes encontrarme en estos sitios."
     }
 }

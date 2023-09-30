@@ -11,11 +11,11 @@ let Link = Scroll.Link;
 
   return (
     <div className='md:hidden fixed w-full bg-red-400 bg-opacity-90 z-50'>
-        <div className='flex flex-row justify-between items-center relative w-full my-2'>
+        <div className='flex flex-row justify-between items-center relative w-full my-2 px-5'>
             <Link to="main" onClick={closeDropdown} spy={true} smooth={true} offset={0} duration={600}>
                 <span className='logo'>Ignacio Wolf</span>
             </Link>
-            <div ref={ref} className='flex flex-row items-center mr-4'>
+            <div ref={ref} className='flex flex-row items-center'>
                 <div><Dropdown/></div>
                 <svg xmlns="http://www.w3.org/2000/svg" onClick={toggleOpen} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ml-10">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />

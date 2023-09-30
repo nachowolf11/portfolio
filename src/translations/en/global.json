@@ -32,6 +32,8 @@
         "email":"Email",
         "send":"Send",
         "messageSent":"Your message has been sent",
-        "thanks":"Thank you for contacting me, I will be responding to you via email in the next few hours."
+        "thanks":"Thank you for contacting me, I will be responding to you via email in the next few hours.",
+        "getintouch":"Get in Touch",
+        "socialNet":"Here are some points of contact."
     }
 }
