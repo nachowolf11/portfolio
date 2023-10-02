@@ -14,8 +14,9 @@ export const ContactSection = () => {
       </div>
 
       <div className='w-full flex flex-wrap'>
-        <div className='w-full lg:w-1/2 flex flex-col items-center justify-center'>
-          <div>
+        
+        <div className='w-full lg:w-1/2 flex flex-col items-center justify-center mt-10'>
+          <div className='flex flex-col items-center lg:items-start rounded-b-md p-3 lg:p-20'>
             <h3 className='text-white text-4xl font-kanit font-medium'>{t('contact.getintouch')}</h3>
             <p className='font-kanit text-white text-justify text-xl font-light'>{t('contact.socialNet')}</p>
             
@@ -90,11 +91,6 @@ export const ContactSection = () => {
                   value={formData.message}
                   onChange={handleChange}
                 />
-                <ReCAPTCHA
-                  ref={recaptchaRef}
-                  size="invisible"
-                  sitekey="6LcQ604oAAAAAO43SgNxKY3n5vs_hmLiNxf03r-V"
-                />
                 <button type="submit"
                   className='font-kanit text-xl shadow-lg bg-white rounded-3xl px-6 py-1 mt-2 hover:shadow-rose-300 hover:scale-110 transition-all select-none'
                 >
@@ -105,7 +101,11 @@ export const ContactSection = () => {
         </div>
 
       </div>
-
+      <ReCAPTCHA
+        ref={recaptchaRef}
+        size="invisible"
+        sitekey="6LcQ604oAAAAAO43SgNxKY3n5vs_hmLiNxf03r-V"
+      />
 
     </section>
   )
