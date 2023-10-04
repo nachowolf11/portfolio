@@ -22,8 +22,8 @@ export const ProyectSection = () => {
         />
         <ProyectCard 
           background={'./img/fondoPokeapp.png'}
-          title={'Poke App'}
-          description={'proyects.pokemon'}
+          title={'Ecommerce'}
+          description={'proyects.ecommerce'}
           url={''}
           technologies={['react','node','mongodb']}
         />
