@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 export const MainSection = () => {
 const {t} = useTranslation("global");
