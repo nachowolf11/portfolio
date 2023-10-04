@@ -4,11 +4,6 @@ export const MainSection = () => {
 const {t} = useTranslation("global");
 
   return (
-    <>
-
-    <Typist>
-    <h1>Hola</h1>
-  </Typist>
     <section className='section-container min-h-screen pt-28 md:pt-40'>
 
         <div className='title-container'>
@@ -24,6 +19,5 @@ const {t} = useTranslation("global");
           />
         </div>    
     </section>
-    </>
   )
 }
