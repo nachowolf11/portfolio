@@ -16,39 +16,39 @@ export const AboutSection = () => {
         <div className='box-technologies'>
           <div className='icon-container'>
             <div className='technology'>
-              <img className='icon' src="./icons/html.png" alt="HTML5"/>
+              <img className='icon' src="./icons/html.png" alt="HTML5" loading='lazy'/>
               <span>HTML 5</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./icons/css.png" alt="CSS"/>
+              <img className='icon' src="./icons/css.png" alt="CSS" loading='lazy'/>
               <span>CSS</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./icons/js.png" alt="JavaScript"/>
+              <img className='icon' src="./icons/js.png" alt="JavaScript" loading='lazy'/>
               <span>JavaScript</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./icons/typescript.svg" alt="JavaScript"/>
+              <img className='icon' src="./icons/typescript.svg" alt="Typescript" loading='lazy'/>
               <span>TypeScript</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./icons/react.png" alt="React"/>
+              <img className='icon' src="./icons/react.png" alt="React" loading='lazy'/>
               <span>React</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./icons/angular.svg" alt="Angular"/>
+              <img className='icon' src="./icons/angular.svg" alt="Angular" loading='lazy'/>
               <span>Angular</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./icons/node.svg" alt="NodeJS"/>
+              <img className='icon' src="./icons/node.svg" alt="NodeJS" loading='lazy'/>
               <span>Node JS</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./icons/mysql.svg" alt="MySql"/>
+              <img className='icon' src="./icons/mysql.svg" alt="MySql" loading='lazy'/>
               <span>My SQL</span>
             </div>
             <div className='technology'>
-              <img className='icon' src="./icons/mongo.svg" alt="MongoDB"/>
+              <img className='icon' src="./icons/mongo.svg" alt="MongoDB" loading='lazy'/>
               <span>MongoDB</span>
             </div>
           </div>

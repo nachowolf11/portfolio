@@ -21,20 +21,20 @@ export const ContactSection = () => {
             <p className='font-kanit text-white text-justify text-xl font-light'>{t('contact.socialNet')}</p>
             
             <div className='flex mt-16'>
-              <img width={'25px'} src="./icons/email.svg" alt="" />
+              <img width={'25px'} src="./icons/email.svg" alt="email" loading='lazy'/>
               <span className='font-kanit font-light text-white ml-3'>ignaciowolf10@gmail.com</span>
             </div>
             <div className='flex mt-5'>
-              <img width={'25px'} src="./icons/maps.png" alt="" />
+              <img width={'25px'} src="./icons/maps.png" alt="maps" loading='lazy'/>
               <span className='font-kanit font-light text-white ml-3'>Buenos Aires, Argentina.</span>
             </div>
 
             <div className='flex mt-10'>
               <a href="https://www.linkedin.com/in/ignacio-wolf-890642164/" className='mr-8'>
-                <img width={'40px'} src="./icons/linkedin.png" alt="" />
+                <img width={'40px'} src="./icons/linkedin.png" alt="Linkedin" loading='lazy'/>
               </a>
               <a href='https://github.com/nachowolf11'>
-                <img width={'40px'} src="./icons/github.png" alt="" />
+                <img width={'40px'} src="./icons/github.png" alt="GitHub" loading='lazy'/>
               </a>
             </div>
           </div>

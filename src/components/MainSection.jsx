@@ -16,6 +16,7 @@ const {t} = useTranslation("global");
           <img 
             src="./img/cv2.png"
             alt="Ignacio Wolf"
+            loading='lazy'
           />
         </div>    
     </section>

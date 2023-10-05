@@ -9,11 +9,11 @@ const {t, onChangeLanguage, useLang} = useLanguage();
       useLang === 'en'
       ?
         <div>
-          <img onClick={()=> onChangeLanguage('es')} className='w-10 cursor-pointer hover:scale-125 transition-all' src="./icons/spain.svg" alt="" />
+          <img onClick={()=> onChangeLanguage('es')} className='w-10 cursor-pointer hover:scale-125 transition-all' src="./icons/spain.svg" alt="" loading='lazy'/>
         </div>
       :
         <div>
-          <img onClick={()=> onChangeLanguage('en')} className='w-10 cursor-pointer hover:scale-125 transition-all' src="./icons/uk.svg" alt="" />
+          <img onClick={()=> onChangeLanguage('en')} className='w-10 cursor-pointer hover:scale-125 transition-all' src="./icons/uk.svg" alt="" loading='lazy'/>
         </div>
     }
     </>
