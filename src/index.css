@@ -164,3 +164,12 @@
     font-family: Kanit;
     font-weight: 200;
 }
+
+.img-not-loaded{
+    opacity: 0;
+    transition: opacity 200ms ease-in-out;
+}
+
+.img-loaded{
+    opacity: 1;
+}
