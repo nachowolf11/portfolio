@@ -23,13 +23,22 @@ useEffect(() => {
 
 
   return (
-    <section className='section-container min-h-screen pt-28 md:pt-40'>
+    <section className='section-container min-h-screen px-5 md:px-0 pt-24 md:pt-36'>
 
         <div className='title-container'>
           <h2 className='title'>{t("mainSection.title")}</h2>
-          <h4 className='subtitle'>{t("mainSection.subtitle")}</h4>
+          <h4 className='subtitle mt-5'>{t("mainSection.subtitle")}</h4>
+          <h4 className='subtitle'>{t("mainSection.subtitle2")}</h4>
         </div>
 
+        <div className='flex justify-center mt-16 w-full'>
+          <Link activeClass="activeSection" to="aboutme" spy={true} smooth={true} offset={0} duration={600}>
+            <button className=' border-2 border-red-400 shadow-lg text-xl md:text-2xl p-3 mr-10 font-normal font-kanit  rounded-sm hover:scale-110 transition-all w-36 md:w-40'>{t("mainSection.knowme")}</button>
+          </Link>
+          <Link activeClass="activeSection" to="contact" spy={true} smooth={true} offset={0} duration={600}>
+            <button className='border-2 border-red-400 shadow-lg text-xl md:text-2xl p-3 font-normal font-kanit rounded-sm hover:scale-110 transition-all w-36 md:w-40'>{t("mainSection.contactme")}</button>
+          </Link>
+        </div>
 
         <div className='profilePicture-container'>
           <img
@@ -40,17 +49,6 @@ useEffect(() => {
             className='img-not-loaded'
           />
         </div>
-        <Link activeClass="activeSection" className='text-center font-kanit text-xl' to="aboutme" spy={true} smooth={true} offset={0} duration={600}>
-          <svg className='hover:cursor-pointer arrowdown' xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-            <polygon points="10,30 50,70 90,30" fill="rgba(0, 0, 0, 0.77)" stroke="" stroke-width="5" />
-            <polygon points="10,40 50,80 90,40" fill="rgba(0, 0, 0, 0.521)" stroke="" stroke-width="5" opacity="0.6" filter="url(#blur)" />
-            <defs>
-              <filter id="blur">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
-              </filter>
-            </defs>
-          </svg>
-        </Link>
     </section>
   )
 }

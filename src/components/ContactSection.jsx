@@ -15,9 +15,9 @@ export const ContactSection = () => {
 
       <div className='w-full flex flex-wrap'>
         
-        <div className='w-full lg:w-1/2 flex flex-col items-center justify-center mt-10'>
+        <div className='w-full lg:w-1/2 flex flex-col items-center justify-center lg:mt-10'>
           <div className='flex flex-col items-center lg:items-start rounded-b-md p-3 lg:p-20'>
-            <h3 className='text-white text-4xl font-kanit font-medium'>{t('contact.getintouch')}</h3>
+            <h3 className='hidden lg:block text-white text-4xl font-kanit font-medium'>{t('contact.getintouch')}</h3>
             <p className='font-kanit text-white text-justify text-xl font-light'>{t('contact.socialNet')}</p>
             
             <div className='flex mt-16'>
@@ -61,7 +61,7 @@ export const ContactSection = () => {
                   type="text"
                   name="name"
                   required
-                  placeholder="Nombre"
+                  placeholder={t("contact.form.name")}
                   value={formData.name}
                   onChange={handleChange}
                 />
@@ -70,7 +70,7 @@ export const ContactSection = () => {
                   type="email"
                   name="email"
                   required
-                  placeholder="Correo Electrónico"
+                  placeholder={t("contact.form.email")}
                   value={formData.email}
                   onChange={handleChange}
                 />
@@ -79,7 +79,7 @@ export const ContactSection = () => {
                   type="text"
                   name="subject"
                   required
-                  placeholder="Asunto"
+                  placeholder={t("contact.form.subject")}
                   value={formData.subject}
                   onChange={handleChange}
                 />
@@ -87,7 +87,7 @@ export const ContactSection = () => {
                   className='w-11/12 my-3 text-xl p-2 font-kanit font-light rounded-md resize-none h-40 outline-red-500'
                   name="message"
                   required
-                  placeholder="Mensaje"
+                  placeholder={t("contact.form.message")}
                   value={formData.message}
                   onChange={handleChange}
                 />

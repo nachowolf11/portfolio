@@ -1,13 +1,16 @@
 {
     "mainSection":{
         "title":"Frontend Web Developer",
-        "subtitle":"Everything is possible in the world of programming, that's why it's my passion."
+        "subtitle2":"Everything is possible in the world of programming, that's why it's my passion.",
+        "subtitle":"Maybe I don't have the solution to your problem, but I'm sure we'll find it.",
+        "knowme":"Know me",
+        "contactme":"Contact me"
     },
     "header":{
         "language":"Language",
         "spanish":"Spanish",
         "english":"English",
-        "contact":"Contact",
+        "contact":"Contact me",
         "aboutme":"About me",
         "proyects":"Proyects"
     },
@@ -34,6 +37,12 @@
         "messageSent":"Your message has been sent",
         "thanks":"Thank you for contacting me, I will be responding to you via email in the next few hours.",
         "getintouch":"Get in Touch",
-        "socialNet":"Here are some points of contact."
+        "socialNet":"Here are some points of contact.",
+        "form":{
+            "name":"Name",
+            "email":"Email",
+            "subject":"Subject",
+            "message":"Message"
+        }
     }
 }

@@ -1,13 +1,16 @@
 {
     "mainSection":{
         "title":"Desarrollador Web Frontend",
-        "subtitle":"Todo es posible en el mundo de la programación, por eso es mi pasión."
+        "subtitle2":"Todo es posible en el mundo de la programación, por eso es mi pasión.",
+        "subtitle":"Tal vez no tenga la solución a tu problema, pero estoy seguro de que la encontraremos.",
+        "knowme":"Conóceme",
+        "contactme":"Contáctame"
     },
     "header":{
         "language":"Idioma",
         "spanish":"Español",
         "english":"Ingles",
-        "contact":"Contacto",
+        "contact":"Contáctame",
         "aboutme":"Sobre mi",
         "proyects":"Proyectos"
     },
@@ -34,6 +37,12 @@
         "messageSent":"Tu mensaje ha sido enviado",
         "thanks":"Gracias por contactarte conmigo, estaré respondiendote a traves de un correo electrónico en la próximas horas.",
         "getintouch":"Contactame",
-        "socialNet":"Puedes encontrarme en estos sitios."
+        "socialNet":"Puedes encontrarme en estos sitios.",
+        "form":{
+            "name":"Nombre",
+            "email":"Correo electrónico",
+            "subject":"Asunto",
+            "message":"Mensaje"
+        }
     }
 }
