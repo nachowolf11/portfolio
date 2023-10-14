@@ -23,7 +23,7 @@ let Link = Scroll.Link;
             </li>
             <li>
               <Link activeClass="activeSection" to="proyects" spy={true} smooth={true} offset={0} duration={600}>
-                {t("header.proyects")}
+                {t("header.projects")}
               </Link>
             </li>
             <li>

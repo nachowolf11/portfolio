@@ -31,7 +31,7 @@ let Link = Scroll.Link;
                     </li>
                     <li className='text-header-mobile'>
                         <Link activeClass="activeSection" onClick={closeDropdown} to="proyects" spy={true} smooth={true} offset={0} duration={600}>
-                            {t("header.proyects")}
+                            {t("header.projects")}
                         </Link>
                     </li>
                     <li className='text-header-mobile'>

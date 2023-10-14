@@ -31,7 +31,7 @@ export const ProyectCard = ({background, title, description, url, technologies})
             >
                 <h3 className="text-white font-kanit text-4xl text-center">{title}</h3>
                 <div className="flex items-center justify-center absolute bg-stone-400 shadow-lg -rotate-45 w-full h-14 top-48 left-48">
-                    <p className="text-white font-bold">{t('proyects.inProgress')}</p>
+                    <p className="text-white font-bold">{t('projects.inProgress')}</p>
                 </div>
 
                 <div className="
@@ -68,7 +68,7 @@ export const ProyectCard = ({background, title, description, url, technologies})
             </div> */}
 
                     <div className="flex items-center rounded-full border-2 border-rose-500 py-2 px-4 mt-5 sm:mt-8 hover:bg-rose-500">
-                        <a className="text-xl text-white" href={url}>{t('proyects.visitWeb')}</a>
+                        <a className="text-xl text-white" href={url}>{t('projects.visitWeb')}</a>
                     </div>
                 </div>
             </div>
