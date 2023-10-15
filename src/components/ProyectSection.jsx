@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLanguage } from '../hooks'
 import { ProyectCard } from './ProyectCard';
+import { CompanyCard } from './CompanyCard';
 
 export const ProyectSection = () => {
   const {t} = useLanguage('global');
@@ -32,15 +33,11 @@ export const ProyectSection = () => {
       <div className='w-11/12 border-t-2 border-black border-opacity-10 my-20'>
         <div className='flex flex-col items-center py-16 md:py-32'>
           <h6 className='text-4xl font-kanit font-medium opacity-80 text-black text-center'>{t('projects.actual')}</h6>
-          <div className='flex flex-col sm:flex-row items-center sm:items-center sm:justify-center w-full md:w-10/12 xl:w-8/12 border-2 border-sky-200 shadow-lg bg-orange-50 bg-opacity-5 rounded-2xl mt-10 py-14
-            px-12 min-[420px]:px-24 min-[550px]:px-32 sm:px-8 lg:px-24' 
-          >
-            <img className='sm:w-44 sm:mr-5 lg:w-56' src="./icons/thalamus.png" alt="thalamus" />
-            <div className='flex flex-col lg:px-10'>
-              <p className='font-kanit font-extralight text-xl text-justify mt-6 sm:mt-0'>{t('projects.thalamus')}</p>
-              <p className='font-kanit font-extralight text-xl mt-6'>{t('projects.rolThalamus')}</p>
-            </div>
-          </div>
+
+          <CompanyCard name={'Thalamus'} img={"./icons/thalamus.png"} description={'projects.thalamus.description'} rol={'projects.thalamus.rol'}/>
+          
+          <CompanyCard name={'Pronova'} description={'projects.pronova.description'} rol={'projects.pronova.rol'}/>
+
         </div>
       </div>
 

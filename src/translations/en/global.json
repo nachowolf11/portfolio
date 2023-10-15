@@ -16,7 +16,7 @@
     },
     "aboutme":{
         "greeting":"Hi, I’m Ignacio. Nice to meet you.",
-        "description":"I´m a Frontend Web Developer who works with modern technologies that allow building robust and attractive web applications. In my spare time, I like to work on personal projects and I´m eager to continue developing my skills to contribute to the success of projects in the future.",
+        "description":"I'm a Frontend Web Developer who works with modern technologies that allow building robust and attractive web applications. In my spare time, I like to work on personal projects and I´m eager to continue developing my skills to contribute to the success of projects in the future.",
         "tech":"I have experience using React, Angular, and Node.js. I'm familiar with relational databases like SQL and non-relational databases like MongoDB. Futhermore, I'm comfortable working with design frameworks like Material UI and using Tailwind CSS to create modern, responsive interfaces."
     },
     "projects":{
@@ -26,9 +26,15 @@
         "visitWeb":"Visit Website",
         "inProgress":"In Progress",
         "twitter":"Twitter clone with its main functionalities. The technologies used in this proyect were React, Node Js and Mongo DB.",
-        "ecommerce":"Next proyect I ´ll develop, it ´ll be an Ecommerce.",
-        "thalamus":"Thalamus is a global SaaS marketing platform to connect your company with consumers, retailers, sales force and distributors.",
-        "rolThalamus":"I perform maintenance and improvements in PWAs that use Angular, PHP, Laravel, Lumen and MySQL technologies."
+        "ecommerce":"Next proyect I 'll develop, it 'll be an Ecommerce.",
+        "thalamus":{
+            "description":"Thalamus is a global SaaS marketing platform to connect your company with consumers, retailers, sales force and distributors.",
+            "rol":"I perform maintenance and improvements in PWAs that use Angular, PHP, Laravel, Lumen and MySQL technologies."
+        },
+        "pronova":{
+            "description":"Pronova is an Argentine company that, through its system, facilitates  the management of business resources of its customers.",
+            "rol":"I make improvements in the company's system as required by the client. The technologies used are ASP and NodeJS. I also use Javascript scripts that work on Excel files."
+        }
     },
     "contact":{
         "title":"Contact",
