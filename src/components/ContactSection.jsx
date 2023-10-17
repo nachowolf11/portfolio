@@ -31,10 +31,10 @@ export const ContactSection = () => {
 
             <div className='flex mt-10'>
               <a href="https://www.linkedin.com/in/ignacio-wolf-890642164/" className='mr-8'>
-                <img width={'40px'} src="./icons/linkedin.png" alt="Linkedin" loading='lazy'/>
+                <img width={'40px'} className='hover:scale-110 transition-all' src="./icons/linkedin.png" alt="Linkedin" loading='lazy'/>
               </a>
               <a href='https://github.com/nachowolf11'>
-                <img width={'40px'} src="./icons/github.png" alt="GitHub" loading='lazy'/>
+                <img width={'40px'} className='hover:scale-110 transition-all' src="./icons/github.png" alt="GitHub" loading='lazy'/>
               </a>
             </div>
           </div>
