@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect } from 'react'
 import { AboutSection, ContactSection, Header, MainSection, ProyectSection } from '../components'
 import { useAnimateSections, useLanguage } from '../hooks'
 import { SectionWithAnimation } from '../components/SectionWithAnimation';

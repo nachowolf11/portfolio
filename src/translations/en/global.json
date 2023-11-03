@@ -25,8 +25,8 @@
         "actual":"I am currently working for:",
         "visitWeb":"Visit Website",
         "inProgress":"In Progress",
-        "twitter":"Twitter clone with its main functionalities. The technologies used in this proyect were React, Node Js and Mongo DB.",
-        "ecommerce":"Next proyect I 'll develop, it 'll be an Ecommerce.",
+        "twitter":"Twitter clone with its main functionalities.",
+        "financeapp":"Application in which you can keep track of expenses, income and other details.",
         "thalamus":{
             "description":"Thalamus is a global SaaS marketing platform to connect your company with consumers, retailers, sales force and distributors.",
             "rol":"I perform maintenance and improvements in PWAs that use Angular, PHP, Laravel, Lumen and MySQL technologies."

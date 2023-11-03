@@ -32,13 +32,13 @@ useEffect(() => {
         </div>
 
         <div className='flex justify-center mt-16 w-full'>
-          <Link activeClass="activeSection" to="aboutme" spy={true} smooth={true} offset={0} duration={600}>
-            <button className='border-2 border-red-400 shadow-lg text-xl md:text-2xl p-3 mr-10 font-normal font-kanit rounded-md hover:scale-110 hover:bg-red-400 hover:text-white transition-all w-36 md:w-40'>
+          <Link activeClass="activeSection" className='mr-10' to="aboutme" spy={true} smooth={true} offset={0} duration={600}>
+            <button className='border-2 border-red-400 shadow-lg text-xl md:text-2xl p-3 font-normal font-kanit rounded-md hover:scale-110 hover:bg-red-400 hover:text-white transition-all w-36 md:w-40 select-none'>
               {t("mainSection.knowme")}
             </button>
           </Link>
           <Link activeClass="activeSection" to="contact" spy={true} smooth={true} offset={0} duration={600}>
-            <button className='border-2 border-red-400 shadow-lg text-xl md:text-2xl p-3 font-normal font-kanit rounded-md hover:scale-110 hover:bg-red-400 hover:text-white transition-all w-36 md:w-40'>
+            <button className='border-2 border-red-400 shadow-lg text-xl md:text-2xl p-3 font-normal font-kanit rounded-md hover:scale-110 hover:bg-red-400 hover:text-white transition-all w-36 md:w-40 select-none'>
               {t("mainSection.contactme")}
             </button>
           </Link>
