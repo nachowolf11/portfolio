@@ -7,8 +7,12 @@ export function Proyects() {
     const { t } = useLanguage('global');
     const [expandedIndex, setExpandedIndex] = useState(null)
 
-    const handleClick = (index) => {
-        setExpandedIndex(index === expandedIndex ? -1 : index)
+    const handleMouseOver = (index) => {
+        setExpandedIndex(index)
+    }
+
+    const handleMouseOut = (index) => {
+        setExpandedIndex(-1)
     }
 
     const cardVariants = {
@@ -17,8 +21,8 @@ export function Proyects() {
             opacity: 1
         },
         collapsed: {
-            width: window.innerWidth > 880 ? "300px" : "260px",
-            opacity: 0.2
+            width: window.innerWidth > 880 ? "350px" : "260px",
+            opacity: 0.5
         }
     }
 
@@ -37,7 +41,8 @@ export function Proyects() {
                                     opacity: 1
                                 }}
                                 transition={{ duration: 0.5 }}
-                                onClick={() => handleClick(id)}
+                                onMouseOver={() => handleMouseOver(id)}
+                                onMouseOut={() => handleMouseOut(id)}
                                 style={{
                                     backgroundImage: `url(${imageUrl})`
                                 }}
