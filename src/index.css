@@ -57,11 +57,9 @@
 }
 
 .header{
-    @apply hidden md:flex items-center justify-between fixed w-full bg-red-400
+    @apply hidden md:flex items-center justify-between fixed w-full bg-red-400 bg-opacity-90
     px-5 2xl:px-16;
     height: 100px;
-    /* background-color: var(--bg-light-yellow); */
-    opacity: .9;
     z-index: 999;
 }
 .text-header-mobile{
