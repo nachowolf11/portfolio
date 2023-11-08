@@ -1,25 +1,14 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import * as Scroll from 'react-scroll';
+import { useLazyLoad } from '../hooks';
 
 
 export const MainSection = () => {
 let Link = Scroll.Link;
 const {t} = useTranslation("global");
 
-useEffect(() => {
-  const img = document.getElementById('cv-img');
-
-  const loaded = () => {
-    img.classList.add('img-loaded');
-  }
-
-  if(img.complete){
-    loaded();
-  }else{
-    img.addEventListener('load', loaded);
-  }
-}, [])
+useLazyLoad('cv-img');
 
 
   return (

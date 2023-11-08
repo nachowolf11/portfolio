@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useState } from "react"
 import { ProyectsData } from "../utils/proyectsData"
-import { useLanguage } from '../hooks'
+import { useLanguage, useLazyLoad } from '../hooks'
 
 export function Proyects() {
     const { t } = useLanguage('global');
